@@ -3,7 +3,7 @@ element.style{
 	overflow-x:hidden;
 }
 .indent{
-	color:#F1F1F1 !important;
+	color:#B5C9D4 !important;
 }
 .text-center {
 	text-align: center!important;
@@ -37,10 +37,13 @@ section{
 	font-family: 'Roboto Slab', serif;
 }
 .meet-the-tutors{
-	background-color:rgb(236, 236, 236);
+	background-color:#eeeeee;
 }
 .box-shadow{
 	box-shadow: 5px 5px 3px 1px #b3b3b3;
+}
+.ben, .allen{
+	background-color:#D3D3D3
 }
 .ben-img{
 	float:left;
@@ -62,8 +65,22 @@ section{
 	margin:20px;
 	float:right;
 }
+.ben2{
+	width:800px;
+	height:auto;
+	display:inline-block;
+	margin:20px;
+	background-color:#eeeeee;	
+}
+.allen2{
+	width:800px;
+	height:auto;
+	margin:20px;
+	float:right;
+	background-color:#eeeeee;
+}
 .quotes{
-	background-color:rgb(230, 230, 230);
+	background-color:#D3D3D3;
 }
 .about{
 width:750px;
@@ -74,7 +91,7 @@ text-align: center;
 	margin-top:auto;
 }
 .main{
-	background-color:#F1F1F1;
+	background-color:#B5C9D4;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -187,6 +204,10 @@ div{
 	position:absolute !important;
 	left:450px !important;
 	font-family: 'Ubuntu', serif !important;
+}
+.our-tutors{
+	text-align:center;
+	font-family: 'Roboto Slab', serif;
 }
 .quote{
 	position:absolute !important;
