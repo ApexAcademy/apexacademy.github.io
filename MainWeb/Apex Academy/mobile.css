@@ -11,14 +11,21 @@ element.style{
 .ml-3{
 	margin-right: 1rem!important;
 }
+.email{
+	margin:auto;
+}
 section{
 	display: block;
 }
 *{
 	box-sizing: border-box;
 }
-.headtitle{
+.about-info{
 	margin:auto;
+}
+.headtitle{
+    margin-top:10px !important;
+	
 	font-family: 'Roboto Slab', serif;
 }
 .bold {
@@ -47,15 +54,14 @@ section{
 }
 .ben-img{
 	float:left;
-	margin:5px;
+	margin:10px;
 }
 .ben-text{
 	margin:20px;
 	text-align:justify;
 }
 .ben{
-	width:800px;
-	height:auto;
+	
 	display:inline-block;
 	margin:20px;	
 }
@@ -83,9 +89,12 @@ section{
 	background-color:#D3D3D3;
 }
 .about{
-width:750px;
-margin:auto;
 text-align: center;
+margin:7px;
+
+}
+.call{
+	
 }
 .carousel-indicators{
 	margin-top:auto;
@@ -138,7 +147,7 @@ div{
 	display:inline-block;
 	padding:0.35em 1.2em;
 	margin-left:50px;
-	border:0.1em solid #b6b6b6;
+	border:0.1em solid #a1a1a1;
 	border-radius:0.12em;
 	box-sizing: border-box;
 	text-decoration:none;
@@ -155,35 +164,33 @@ div{
 	a.button1{
 	display:block;
 	}}}
-	a.button2{
+	a.button7{
 		display:inline-block;
-		padding:0.35em 1.2em;
-		margin-left:50px;
-		
-		border-radius:0.12em;
+		padding:0.7em 1.7em;
+		margin:0 0.3em 0.3em 0;
+		border-radius:0.2em;
 		box-sizing: border-box;
 		text-decoration:none;
 		font-family:'Roboto',sans-serif;
-		font-weight:300;
-		color:#000000;
+		font-weight:400;
+		color:#FFFFFF;
+		background-color:#7eccbb;
+		box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
 		text-align:center;
-		transition: all 0.2s;
+		position:relative;
 		}
-		a.button2:hover{
-		color:#b4b4b4;
-		
+		a.button7:active{
+		box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+		}
 		@media all and (max-width:30em){
-		a.button1{
+		 a.button7{
 		display:block;
-		}}}
-	.slides{
-		width:1550px;
-		height:auto;
-		margin:auto;
-	}
-	.header{
-		margin-top:100px;
-	}
+		margin:0.4em auto;
+		 }
+		}
+.header{
+	margin-top:100px;
+		}
 .navbar-left{
 	position:absolute;
 	right:100px;
@@ -192,22 +199,28 @@ div{
 	position:absolute !important;
 	left:150px !important;
 }
+.righty{
+	position:absolute !important;
+	right:150px !important;
+}
 .almost{
 	left:75%;
 }
-.home{
-	position:absolute !important;
-	left:350px !important;
-	font-family: 'Ubuntu', serif !important;
+.tutor-yes{
+	background-color:#dfdfdf;
 }
 .meet{
 	position:absolute !important;
 	left:450px !important;
 	font-family: 'Ubuntu', serif !important;
+	background-color:#eeeeee;
+	
 }
 .our-tutors{
 	text-align:center;
 	font-family: 'Roboto Slab', serif;
+	background-color:#dfdfdf;
+	
 }
 .quote{
 	position:absolute !important;
